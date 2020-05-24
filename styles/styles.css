@@ -14,12 +14,12 @@ img {
 }
 
 .wrapper {
-    max-width: 1280px;
+    max-width: 1000px;
 }
 
 .innerWrapper {
     margin: 0 auto; 
-    width: 80%; 
+    width: 70%; 
 }
 
 .image-resizing {
