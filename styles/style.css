@@ -47,6 +47,10 @@ header {
     background-repeat: no-repeat;
 }
 
+a {
+    color: #ffffff; 
+}
+
 .wrapper {
     max-width: 1280px;
 }
@@ -59,14 +63,6 @@ header {
 .image-resizing {
     position: relative;
     width: 400px; 
-    /* transition: background 1s, height 10s, width 0.5s; */
-    /* transform: rotate(60deg); */
-    /* transition: transform 0.8s; */
-}
-
-.image-resizing:hover {
-    /* width: 500px; */
- 
 }
 
 .gifPosition {
@@ -85,4 +81,75 @@ header {
     display: flex;
     flex-direction: column;
     width: 60%; 
+}
+
+.mobileImage {
+    visibility: hidden;  
+}
+
+/* media queries */
+
+@media (max-width: 800px) {
+    p {
+        width: auto; 
+        background-color: #66a17fc2;
+        border-radius: 15px;
+        margin: 0 auto;
+        padding: 5%
+    }
+
+    h1 {
+        margin: 0 auto; 
+        background-color: #66a17fc2;
+        border-radius: 15px; 
+        padding: 5%; 
+    }
+
+    .flexItems {
+        margin: 5%; 
+    }
+
+    .flexItems h1 {
+        margin-bottom: 5%; 
+    }
+
+    .flexContainer {
+        align-items: center; 
+    }
+
+    .innerWrapper {
+        margin: 0; 
+        width: auto; 
+    }
+}
+
+
+@media (max-width: 745px) {
+     header {
+        background-position: left;
+    }
+
+    p {
+        width: 100%; 
+    }
+    
+    h1 {
+        background-color: 0;
+    }
+    
+    .flexItems h1 {
+        width: 90%;
+        font-size: 35px; 
+    }
+
+    /* .flexContainer {
+        align-items: center; 
+    } */
+    
+
+    .mobileImage {
+        visibility: visible; 
+        width: 200px;
+        margin: 0 auto;
+    }
 }
