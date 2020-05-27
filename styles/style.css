@@ -21,6 +21,8 @@ h1 {
     letter-spacing: 2px;
     background-color: #66a17fc2;
     border-radius: 15px;
+    padding: 2%; 
+    width: 50%; 
 }
 
 p {
