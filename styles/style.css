@@ -8,9 +8,43 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 62.5%;
+    color: white; 
+}
+
+
+
+h1 {
+    font-size: 60px;  
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 30px;
+    width: 40%;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h1 p {
+    text-align: center;
+    margin: 0 auto; 
+}
+
 img {
     display: inline-block;
     width: 100%;
+}
+
+header {
+    height: 100vh;
+    background-image: url(../assets/orbitz_n_calc.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -18,15 +52,37 @@ img {
 }
 
 .innerWrapper {
-    margin: 0 auto; 
-    width: 70%; 
+    margin-left: 3%;  
+    width: 80%; 
 }
 
 .image-resizing {
     position: relative;
+    width: 400px; 
+    /* transition: background 1s, height 10s, width 0.5s; */
+    /* transform: rotate(60deg); */
+    /* transition: transform 0.8s; */
+}
+
+.image-resizing:hover {
+    /* width: 500px; */
+ 
 }
 
 .gifPosition {
     position: absolute;
-    bottom: 10%;
+    bottom: 57%;
+    left: 37%;
+    width: 23%;
+}
+
+.flexContainer {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.flexItems {
+    display: flex;
+    flex-direction: column;
+    width: 60%; 
 }
