@@ -19,6 +19,8 @@ html {
 h1 {
     font-size: 60px;  
     letter-spacing: 2px;
+    background-color: #66a17fc2;
+    border-radius: 15px;
 }
 
 p {
@@ -27,6 +29,8 @@ p {
     line-height: 50px;
     letter-spacing: 2px;
     text-align: center;
+    background-color: #66a17fc2;
+    border-radius: 15px;
 }
 
 h1 p {
@@ -42,7 +46,7 @@ img {
 header {
     height: 100vh;
     background-image: url(../assets/orbitz_n_calc.jpg); 
-    background-position: center;
+    background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -142,14 +146,9 @@ a {
         font-size: 35px; 
     }
 
-    /* .flexContainer {
-        align-items: center; 
-    } */
-    
-
     .mobileImage {
-        visibility: visible; 
-        width: 200px;
+        display: inline;
+        /* width: 200px; */
         margin: 0 auto;
     }
 }
