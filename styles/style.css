@@ -88,7 +88,7 @@ a {
 }
 
 .mobileImage {
-    visibility: hidden;  
+    display: none;  
 }
 
 /* media queries */
